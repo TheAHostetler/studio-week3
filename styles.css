@@ -63,7 +63,7 @@ p {
 #map {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 700px;
 }
 
 /*Set rules for how the map overlays (information box and legend) will be displayed on the page. */
