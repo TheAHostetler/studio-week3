@@ -20,7 +20,9 @@ li a {
  display: block;
  color: black;
  text-align: left;
- padding: 15px 17px;
+ padding: 1px;
+ border: 1px;
+ border-color: black;
  text-decoration: none;
 }
 
@@ -36,27 +38,25 @@ li a:hover {
 body {
   margin: 0;
   padding: 0;
-  background-color: #AEADF0;
+  background-color: #42A49D;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 h1 {
   color:#2D2A32
 }
 
-h2,
-h3 {
+h2,h3 {
   margin: 10px;
   font-size: 1.2em;
-}
-
-h3 {
-  font-size: 1em;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 p {
   font-size: 0.85em;
   margin: 10px;
   text-align: left;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 /* Create a position for the map on the page */
@@ -78,27 +78,11 @@ p {
   border-radius: 3px;
 }
 
-.map-overlay2 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  font-family: Arial, sans-serif;
-  overflow: auto;
-  border-radius: 3px;
-}
-
 #features {
   top: 190px;
   height: 100px;
   margin-top: 20px;
   width: 250px;
-}
-
-#features2 {
-  top: 200px;
-  height: 300px;
-  margin-top: 20px;
-  width: 400px;
 }
 
 #legend {
